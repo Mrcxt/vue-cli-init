@@ -10,7 +10,7 @@ export default {
     namespaced: false,
     state: {
         collapseSwitch: false,
-        token: null,
+        token: "null",
     },
     getters: {
         collapseSwitch: state => state.collapseSwitch,
